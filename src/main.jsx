@@ -1,18 +1,19 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-import "modern-normalize"
+import "modern-normalize";
 // import App from './components/App'
 
-import { App } from './components/App'
+// import { App } from './components/App'
 // import { Alert } from './components/Alert'
-import './index.css'
 
+// import App from ".components/Test";
+import App from "./components/App";
 
+import "./index.css";
 
-
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);
