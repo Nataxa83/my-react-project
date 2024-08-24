@@ -8,7 +8,7 @@ import "modern-normalize";
 // import { Alert } from './components/Alert'
 
 // import App from ".components/Test";
-import App from "./components/App";
+import App from "./App";
 
 import "./index.css";
 
